@@ -1,9 +1,9 @@
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android) // 添加Kotlin插件
-    id("androidx.navigation.safeargs.kotlin") // 如果需要导航
-    id("com.google.dagger.hilt.android") // Hilt
-    id("androidx.room") // Room
+    alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.navigation.safeargs.kotlin)
+    alias(libs.plugins.dagger.hilt.android)
+    alias(libs.plugins.room.plugin)
 }
 
 android {
